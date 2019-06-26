@@ -8,9 +8,21 @@
   pointer-events: none;
 }
 
+.App-logo-small {
+  height: 5vmin;
+}
+.morning{
+background-color:yellow;
+}
+.afternoon{
+  background-color:orange;
+}
+.evening{
+  background-color:blue;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +42,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.message{
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+  background-color: red;
+}
+.alert {
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+  background-color: red;
+}
+.box0{
+  color: white;
+  margin: auto;
+  text-align: center;
+  border: 1px solid red;
+  height: 50px;
+  width: 500px;
+  background-color: purple;
+}
+.box1{
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+  background-color: blue;
+}
+.box2 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+  background-color: gray;
+}
+.box3 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+  background-color: green;
 }
